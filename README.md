@@ -15,4 +15,5 @@ sudo sh -c "echo 'Hello Kubernetes volume' > /mnt/data/index.html"
 2. root@pv-pod:/# apt-get update
 3. root@pv-pod:/# apt-get install curl
 4. root@pv-pod:/# curl localhost
+
 you should see "Hello Kubernetes volume" as output
