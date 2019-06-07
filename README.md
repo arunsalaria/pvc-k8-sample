@@ -1,10 +1,13 @@
 # pvc-k8-sample
 Sample project explaining persistence volume and  persistence volume claim on K8 cluster with local path with node affinity
 
-1.ssh into ur worker node and create a /mnt/data directory:
-  sudo mkdir /mnt/data
-2.In the /mnt/data directory, create an index.html file:
-  sudo sh -c "echo 'Hello Kubernetes volume' > /mnt/data/index.html"
+1. ssh into ur worker node and create a /mnt/data directory:
+
+   sudo mkdir /mnt/data
+  
+2. In the /mnt/data directory, create an index.html file:
+
+   sudo sh -c "echo 'Hello Kubernetes volume' > /mnt/data/index.html"
 
 # ssh into master node run
 1. kubectl apply -f sample-volume.yaml
