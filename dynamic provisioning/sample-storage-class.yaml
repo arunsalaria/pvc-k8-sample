@@ -5,5 +5,5 @@ metadata:
 provisioner: kubernetes.io/gce-pd
 parameters:
   type: pd-standard
-volumeBindingMode: WaitForFirstConsumer
+
 
