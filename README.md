@@ -1,4 +1,4 @@
-# pvc-k8-sample
+# pvc-k8-sample with static provisioning
 Sample project explaining persistence volume and  persistence volume claim on K8 cluster with local path with node affinity
 
 1. ssh into ur worker node and create a /mnt/data directory:
