@@ -19,4 +19,5 @@ spec:
         - key: kubernetes.io/hostname
           operator: In
           values:
+          #Host name for the worker node
           - worker-one
